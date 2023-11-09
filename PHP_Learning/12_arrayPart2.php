@@ -9,11 +9,18 @@ for ($i=0; $i < count($arr) ; $i++) {
     echo "The colors are : ". $arr[$i] ."<br>" ;
 }
 
-$ar2 = array('ram' => 'red', 'hari' => 'blue', 'shyam' => 'green');
+$arr2 = array('ram' => 'red', 'hari' => 'blue', 'shyam' => 'green');
 
 // how to get values 
 
-echo favCo
+echo $arr2['ram'];
+echo $arr2['shyam'];
+echo $arr2['hari'];
+
+foreach ($arr2 as $key => $value) {
+    # code...
+    echo "<br> The color of $key is $value.";
+}
 
 
 ?>
